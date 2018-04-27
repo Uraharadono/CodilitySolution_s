@@ -14,7 +14,8 @@ namespace Codility
 
             // https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
             CyclicRotation lesson2 = new CyclicRotation();
-            Console.WriteLine(lesson2.solution(1376796946));
+            Console.WriteLine(lesson2.solution(new int[] { 3, 8, 9, 7, 6 }, 3));
+            Console.WriteLine(lesson2.solution(new int[] { 1, 2, 3, 4 }, 4));
 
         }
     }
