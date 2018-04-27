@@ -9,13 +9,17 @@ namespace Codility
         static void Main(string[] args)
         {
             // https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
-            //BinaryGap lesson1 = new BinaryGap();
-            //Console.WriteLine(lesson1.solution(1376796946));
+            //BinaryGap binaryGap = new BinaryGap();
+            //Console.WriteLine(binaryGap.solution(1376796946));
 
             // https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
-            CyclicRotation lesson2 = new CyclicRotation();
-            Console.WriteLine(lesson2.solution(new int[] { 3, 8, 9, 7, 6 }, 3));
-            Console.WriteLine(lesson2.solution(new int[] { 1, 2, 3, 4 }, 4));
+            //CyclicRotation cyclicRotation = new CyclicRotation();
+            //Console.WriteLine(cyclicRotation.solution(new int[] { 3, 8, 9, 7, 6 }, 3));
+            //Console.WriteLine(cyclicRotation.solution(new int[] { 1, 2, 3, 4 }, 4));
+
+            // https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+            OddOccurrencesInArray oddOccurrencesInArray = new OddOccurrencesInArray();
+            Console.WriteLine(oddOccurrencesInArray.solution(new int[] { 9, 3, 9, 3, 9, 7, 9 }));
 
         }
     }
