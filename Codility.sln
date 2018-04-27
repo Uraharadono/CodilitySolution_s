@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codility", "Codility\Codility.csproj", "{BFCE4987-7F21-4407-9FB7-E190BB5F7DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCE4987-7F21-4407-9FB7-E190BB5F7DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCE4987-7F21-4407-9FB7-E190BB5F7DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCE4987-7F21-4407-9FB7-E190BB5F7DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCE4987-7F21-4407-9FB7-E190BB5F7DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAAE5F02-8D27-4225-B316-A05826599C05}
+	EndGlobalSection
+EndGlobal
