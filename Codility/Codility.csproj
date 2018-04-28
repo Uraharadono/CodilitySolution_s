@@ -45,6 +45,7 @@
     <Compile Include="Lesson 1 - Iterations\BinaryGap.cs" />
     <Compile Include="Lesson 2 - Arrays\CyclicRotation.cs" />
     <Compile Include="Lesson 2 - Arrays\OddOccurrencesInArray.cs" />
+    <Compile Include="Lesson 3 - Time Complexity\PermMissingElem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

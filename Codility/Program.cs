@@ -1,6 +1,7 @@
 ﻿using System;
 using Codility.Lesson_1___Iterations;
 using Codility.Lesson_2___Arrays;
+using Codility.Lesson_3___Time_Complexity;
 
 namespace Codility
 {
@@ -18,9 +19,12 @@ namespace Codility
             //Console.WriteLine(cyclicRotation.solution(new int[] { 1, 2, 3, 4 }, 4));
 
             // https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
-            OddOccurrencesInArray oddOccurrencesInArray = new OddOccurrencesInArray();
-            Console.WriteLine(oddOccurrencesInArray.solution(new int[] { 9, 3, 9, 3, 9, 7, 9 }));
+            //OddOccurrencesInArray oddOccurrencesInArray = new OddOccurrencesInArray();
+            //Console.WriteLine(oddOccurrencesInArray.solution(new int[] { 9, 3, 9, 3, 9, 7, 9 }));
 
+            // https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+            PermMissingElem permMissingElem = new PermMissingElem();
+            Console.WriteLine(permMissingElem.solution(new int[] { 2, 3, 1, 5 }));
         }
     }
 }

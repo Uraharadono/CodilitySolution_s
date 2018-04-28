@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Codility.Lesson_2___Arrays
 {
@@ -20,6 +21,31 @@ namespace Codility.Lesson_2___Arrays
             return element;
         }
 
+        /*
+         * FOURTH Attempt
+         * From my understanding this would be as fast as one above, but it's more clear to me
+         * what is happening that what is happening with XOR operator
+         */
+        //public int solution(int[] numbers)
+        //{
+        //    // key is the number, value is its count
+        //    var numberCounts = new Dictionary<int, int>();
+
+        //    foreach (var number in numbers)
+        //    {
+        //        if (numberCounts.ContainsKey(number))
+        //        {
+        //            numberCounts[number]++;
+        //        }
+        //        else
+        //        {
+        //            numberCounts.Add(number, 1);
+        //        }
+        //    }
+
+        //    var noPair = numberCounts.Single(kvp => kvp.Value < 2);
+        //    return noPair.Key;
+        //}
 
         /*
          * SECOND ATTEMPT
