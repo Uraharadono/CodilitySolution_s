@@ -23,8 +23,14 @@ namespace Codility
             //Console.WriteLine(oddOccurrencesInArray.solution(new int[] { 9, 3, 9, 3, 9, 7, 9 }));
 
             // https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
-            PermMissingElem permMissingElem = new PermMissingElem();
-            Console.WriteLine(permMissingElem.solution(new int[] { 2, 3, 1, 5 }));
+            //PermMissingElem permMissingElem = new PermMissingElem();
+            //Console.WriteLine(permMissingElem.solution(new int[] { 2, 3, 1, 5 }));
+
+            // https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+            FrogJmp frogJmp = new FrogJmp();
+            Console.WriteLine(frogJmp.solution(10, 85, 30));
+
+
         }
     }
 }
