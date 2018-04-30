@@ -47,6 +47,7 @@
     <Compile Include="Lesson 2 - Arrays\OddOccurrencesInArray.cs" />
     <Compile Include="Lesson 3 - Time Complexity\FrogJmp.cs" />
     <Compile Include="Lesson 3 - Time Complexity\PermMissingElem.cs" />
+    <Compile Include="Lesson 3 - Time Complexity\TapeEquilibrium.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

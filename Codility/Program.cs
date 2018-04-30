@@ -27,10 +27,12 @@ namespace Codility
             //Console.WriteLine(permMissingElem.solution(new int[] { 2, 3, 1, 5 }));
 
             // https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
-            FrogJmp frogJmp = new FrogJmp();
-            Console.WriteLine(frogJmp.solution(10, 85, 30));
+            //FrogJmp frogJmp = new FrogJmp();
+            //Console.WriteLine(frogJmp.solution(10, 85, 30));
 
-
+            // https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+            TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
+            Console.WriteLine(tapeEquilibrium.solution(new int[] { 3, 1, 2, 4, 3 }));
         }
     }
 }
