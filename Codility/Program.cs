@@ -2,6 +2,7 @@
 using Codility.Lesson_1___Iterations;
 using Codility.Lesson_2___Arrays;
 using Codility.Lesson_3___Time_Complexity;
+using Codility.Lesson_4___Counting_Elements;
 
 namespace Codility
 {
@@ -31,8 +32,15 @@ namespace Codility
             //Console.WriteLine(frogJmp.solution(10, 85, 30));
 
             // https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
-            TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
-            Console.WriteLine(tapeEquilibrium.solution(new int[] { 3, 1, 2, 4, 3 }));
+            //TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
+            //Console.WriteLine(tapeEquilibrium.solution(new int[] { 3, 1, 2, 4, 3 }));
+
+            // https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+            PermCheck permCheck = new PermCheck();
+            Console.WriteLine(permCheck.solution(new int[] { 3, 1, 2, 4 }));
+
+
+
         }
     }
 }
